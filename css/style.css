@@ -1,3 +1,8 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 video#bgvid {
     position: fixed;
     right: 0;
@@ -8,4 +13,20 @@ video#bgvid {
     height: auto;
     z-index: -100;
     background-size: cover;
+}
+
+.container {
+    background-color: #2d2d2d;
+    border: 1px solid lightgrey;
+    width: 30%;
+    padding: 30px;
+    opacity: .7;
+    margin-top: 20%;
+    margin: auto;
+    max-width: 580px;
+}
+
+div>h1 {
+    margin: auto;
+    color: white;
 }
