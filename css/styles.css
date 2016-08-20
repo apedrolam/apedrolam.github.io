@@ -1,7 +1,4 @@
 
-/* ==========================================================
-! 01. MIXINS / VARIABLES
-==============	=========================================== */
 .color1 {
   color: #08aeac;
 }
@@ -35,9 +32,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* ==========================================================
-! 02. GENERAL 
-========================================================== */
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -47,9 +41,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* ==========================================================
-! 03. Buttons
-========================================================== */
 a:focus {
   outline: none;
 }
@@ -154,9 +145,6 @@ iframe {
 .btn-fluid {
   width: 100%;
 }
-/* ==========================================================
-! . 04. Page loader
-========================================================== */
 #page-loader {
   width: 100%;
   height: 100%;
@@ -307,9 +295,6 @@ iframe {
     height: 0%;
   }
 }
-/* ==========================================================
-! 05. FOOTER
-========================================================== */
 .social-icons {
   font-size: 28px;
   text-align: right;
@@ -353,9 +338,6 @@ iframe {
   color: #ffffff;
   background: #08aeac;
 }
-/* ==========================================================
-! 06. SECTION: vCard Body
-========================================================== */
 .container {
   position: relative;
   padding-bottom: 80px;
@@ -469,9 +451,6 @@ iframe {
   opacity: 0.9 !important;
   right: 4px!important;
 }
-/* ==========================================================
-! 07. SECTION: Main Menu
-========================================================== */
 .main-menu {
   width: 15%;
   position: absolute;
@@ -553,9 +532,6 @@ iframe {
   background: #021533;
   padding-left: 15px;
 }
-/* ==========================================================
-! 08. Home
-========================================================== */
 .section-home {
   z-index: 88;
   opacity: 1;
@@ -634,9 +610,6 @@ iframe {
   color: #ffffff;
   font-size: 12px;
 }
-/* ==========================================================
-! 09. Content
-========================================================== */
 .section-title {
   color: #021533;
   text-transform: uppercase;
@@ -705,10 +678,6 @@ iframe {
 .graduation-description p {
   font-size: 12px;
 }
-/*============================================================================
-  >>  10. SECTION: Resume
-  ============================================================================
-*/
 .section-education {
   margin-bottom: 40px;
 }
@@ -821,10 +790,6 @@ iframe {
   cursor: -webkit-grab;
   cursor: -moz-grab;
 }
-/*============================================================================
-  >>  11. Owl Carousel
-  ============================================================================
-*/
 .owl-carousel .owl-item {
   cursor: -webkit-grab;
 }
@@ -931,9 +896,6 @@ iframe {
 .owl-pagination .active span {
   background: #021533 !important;
 }
-/* ==========================================================
-! 12. SECTION: SKILLS
-========================================================== */
 .skills-list {
   padding-left: 0;
   margin-left: 0;
@@ -974,321 +936,8 @@ iframe {
   background: #d9212a;
 }
 .progress-bar-4 {
-  background: #ffad33;
+  background:
 }
-/* ==========================================================
-! 13. SECTION: Portfolio
-========================================================== */
-.project-item {
-  padding: 0;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 10px;
-  position: relative;
-  opacity: 1;
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-}
-.project-item a {
-  cursor: url('../img/projects2.cur'), projetos !important;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
-.project-thumbnail {
-  display: block;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 250px;
-  text-align: center;
-  color: #ffffff;
-  padding: 15px;
-}
-.project-thumbnail:hover {
-  color: #ffffff;
-}
-.project-thumbnail:hover .project-description-wrapper {
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-}
-.project-thumbnail:hover .project-title,
-.project-thumbnail:hover span.see-more {
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  -moz-transform: translateY(0px);
-}
-.project-description-wrapper {
-  display: block;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  color: #ffffff;
-  position: relative;
-  background: rgba(0, 0, 0, 0.7);
-}
-.project-description {
-  position: absolute;
-  top: 50%;
-  margin-top: -55px;
-  width: 100%;
-}
-.project-title {
-  text-transform: uppercase;
-  font-size: 20px;
-  transform: translateY(10px);
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-.project-title:after {
-  content: '';
-  display: block;
-  height: 1px;
-  border-bottom: 1px solid #ffffff;
-  width: 50%;
-  margin: 0 auto;
-  opacity: 0.5;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.project-thumbnail {
-  display: block;
-  color: #ffffff;
-  position: relative;
-}
-span.see-more {
-  font-style: italic;
-  text-transform: lowercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  transform: translateY(10px);
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-}
-/* ==========================================================
-! 14. BLOG
-========================================================== */
-.blog-item {
-  margin-bottom: 15px;
-  padding: 9px;
-  border-top: 4px solid #132644;
-  padding-top: 20px;
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.6);
-}
-.blog-item-wrapper {
-  /* border: 1px solid #ddd;
-  border-top: 3px solid @color1;
-  padding: 15px;
-  padding-top: 20px;
-  padding-bottom: 5px;*/
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.blog-item-title {
-  font-size: 18px;
-  line-height: 26px;
-  padding-bottom: 0;
-  margin-bottom: 6px;
-  color: #021533;
-  border-bottom: 1px dotted #021533;
-  padding-bottom: 4px;
-  font-weight: bold;
-}
-.blog-item-title a {
-  color: #021533;
-}
-.blog-item-title a:hover {
-  text-decoration: none;
-}
-.blog-item-thumb a {
-  cursor: url('../img/projects.cur'), projetos !important;
-  -moz-cursor: url('../img/projects.cur'), projetos !important;
-}
-.blog-item-thumb img {
-  width: 100%;
-}
-.blog-item-title-hr {
-  border: 0;
-  border-top: 3px solid #021533;
-  width: 20%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 0;
-}
-.blog-item-description p {
-  font-size: 12px;
-}
-.blog-item-description a {
-  color: #555555 !important;
-}
-.blog-item-description a:hover {
-  text-decoration: none;
-}
-.blog-item-link {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.blog-item-link .btn-default {
-  font-size: 11px !important;
-}
-.section-header-image {
-  margin-bottom: 40px;
-}
-.section-header-image img {
-  width: 100%;
-}
-.section-pagination {
-  font-size: 12px;
-  padding-bottom: 20px;
-}
-.section-pagination a {
-  display: inline-block;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #ffffff;
-  background: #08aeac;
-  font-weight: bold;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.section-pagination a:hover {
-  background: #021533;
-  text-decoration: none;
-}
-/* ==========================================================
-! 15. SECTION: Blog - Single
-========================================================== */
-.vcard-header-single {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 888;
-}
-@media (min-width:992px) {
-  .vcard-header-single {
-    width: 40%;
-    left: 30%;
-    position: absolute;
-    top: 61px;
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 1400px) {
-  .vcard-header-single {
-    top: 180px;
-  }
-}
-.blog-single-post {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 10px;
-  padding-top: 0;
-  padding-right: 20px;
-}
-.blog-single-content p {
-  font-size: 13px;
-  line-height: 23px;
-}
-.blog-comments-title {
-  border-bottom: 1px dotted #08aeac;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-@media (min-width:992px) {
-  .post-header-image {
-    margin-left: -30px;
-    margin-right: -40px;
-  }
-}
-.post-header-image img {
-  width: 100%;
-}
-.blog-single-title {
-  font-size: 18px;
-  line-height: 26px;
-  padding-bottom: 0;
-  margin-bottom: 6px;
-  border-bottom: 1px dotted #021533;
-  padding-bottom: 4px;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: bold;
-  color: #021533;
-  border-bottom: 1px solid #021533;
-  padding-bottom: 8px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-.blog-single-title a {
-  color: #021533;
-}
-.blog-single-title a:hover {
-  text-decoration: none;
-}
-/*! Blog Comments */
-.blog-comments-title {
-  margin-bottom: 20px;
-  margin-top: 40px;
-  font-size: 18px;
-  color: #08aeac;
-}
-.media-heading {
-  font-weight: bold;
-}
-.media-heading small {
-  font-size: 9px;
-  display: block;
-  color: #132644;
-  margin-top: 8px;
-}
-.media-body {
-  font-size: 12px;
-}
-.well {
-  background-color: transparent!important;
-}
-.blog-comments > .media {
-  border-bottom: 1px dotted #000000;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.media {
-  margin-top: 25px;
-}
-.media img {
-  width: 64px!important;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-/* ==========================================================
-! 16. SECTION: Map
-========================================================== */
 .map {
   position: relative;
   z-index: 1;
@@ -1303,9 +952,6 @@ span.see-more {
   height: 100%;
   cursor: url('../img/projects.cur'), projetos !important;
 }
-/* ==========================================================
-! 17. SECTION: Contact
-========================================================== */
 .contact-subtitle-1 {
   color: #08aeac;
   font-size: 14px;
@@ -1322,37 +968,6 @@ span.see-more {
 .contact-infos p {
   font-size: 13px;
   line-height: 16px;
-}
-.form-group {
-  margin-bottom: 8px;
-}
-.form-send {
-  width: 100%;
-}
-.form-send:hover {
-  background: #d9212a !important;
-}
-.form-control {
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  height: 50px;
-}
-::-webkit-input-placeholder {
-  font-style: italic;
-  color: #999999 !important;
-}
-:-moz-placeholder {
-  font-style: italic;
-  color: #999999 !important;
-}
-::-moz-placeholder {
-  font-style: italic;
-  color: #999999 !important;
-}
-:-ms-input-placeholder {
-  font-style: italic;
-  color: #999999 !important;
 }
 .modal-wrap {
   display: none;
@@ -1392,9 +1007,6 @@ span.see-more {
 #contactError .modal-title {
   color: #fff;
 }
-/* ==========================================================
-! 18. CROSSBROWSER FALLBACKS
-========================================================== */
 .safari .vcard-profile-pic img {
   border: 0px solid #ddd;
 }

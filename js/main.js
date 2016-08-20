@@ -1,12 +1,9 @@
-//Use Strict Mode
 (function($) {
   "use strict";
 
-//Begin - Window Load
 $(window).load(function(){
 
 
-	//==============___Page Loader___================
   
   $('#page-loader').delay(300).fadeOut(400, function(){
 
@@ -18,13 +15,9 @@ $(window).load(function(){
 
 });
 
-//Begin - Document Ready
 $(document).ready(function(){
 
-//==============___Page Loader___================
   $('#loading-wraper').fadeIn(300);
-
-//==============___Testimonials - owl Carousel___================
  $("#testimonial-carousel").owlCarousel({
     navigation : false, // Show next and prev buttons
     slideSpeed : 300,
@@ -36,8 +29,6 @@ $(document).ready(function(){
     navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
   });
 
-
-//==============_Map_================
 $('.map').on('click', function(){
 	$('.map-overlay').hide();
 });
@@ -46,17 +37,12 @@ $('.map').on('mouseleave', function(){
 	$('.map-overlay').show();
 });
 
-//==============_Lightbox_================
-//Nivo Lightbox
   $('a.nivobox').nivoLightbox({ effect: 'fade' });
 
 
-//==============___Scrollbars___================
 $('.section-vcardbody').perfectScrollbar({
   wheelSpeed: 0.9
 });
-
-//==============___Menu & Pages Animation___================
 
 var linkHome = 0;
 var linkPage = '';
@@ -103,14 +89,8 @@ $(".link-home").on('click', function(event){
     pageOff();
   }  
 });
-
-//Modal for Contact Form
 $('.modal-wrap').click(function(){
   $('.modal-wrap').fadeOut(300);
 });   
-
-//End - Document Ready
 });
-
-//End - Use Strict mode
 })(jQuery);
